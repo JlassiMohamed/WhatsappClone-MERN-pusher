@@ -1,0 +1,21 @@
+{
+  "name": "whatsappclone_pusher",
+  "version": "1.0.0",
+  "description": "A Whats-app Clone using MongoDB , Express, React, Node, Pusher, and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "back": "cd backend && nodemon server.js",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JlassiMohamed/whatsappClone_pusher/issues"
+  },
+  "author": "Mohamed Jlassi",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.11"
+  }
+}
